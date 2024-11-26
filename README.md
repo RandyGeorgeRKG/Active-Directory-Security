@@ -8,7 +8,9 @@
 
 ## Project Overview
 
-![Diagram ](https://github.com/user-attachments/assets/52dfd216-609b-4494-9ed2-4bae37b52018)
+
+![BLUEEEEE](https://github.com/user-attachments/assets/cfa1d79b-d14c-4ec5-bad5-e9aae9b00ae4)
+
 
 ##  Domain Controller Setup
 Screenshot: AD DS installation and promotion to a domain controller.
