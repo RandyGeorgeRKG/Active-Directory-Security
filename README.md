@@ -1,5 +1,8 @@
 # Active-Directory-Security
 
+![Microsoft-Active-Directory-Integration-1440x960](https://github.com/user-attachments/assets/d493fd90-1d39-4e22-9d6b-7ec2151273f7)
+
+## Introduction
 
 ##  Domain Controller Setup
 Screenshot: AD DS installation and promotion to a domain controller.
