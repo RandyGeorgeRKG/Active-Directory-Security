@@ -80,6 +80,13 @@ Active Directory is a powerful tool in today’s evolving threat landscape. Its 
 
 ## Group Policy Implementation
 
+
+
+![More account lockouts ](https://github.com/user-attachments/assets/b8a6a520-ecc2-42e4-b75b-644aac4f787e)![More Password GPO ](https://github.com/user-attachments/assets/b2bcc5a6-48d8-4d9a-9f60-2496432ee276)
+![PAssword Policy GPO ](https://github.com/user-attachments/assets/cc5257a6-a507-4b8e-8a61-88730e195df5)
+![Account Lockouts ](https://github.com/user-attachments/assets/c29258a3-296d-47dd-ae1d-2b9509a5f4e8)
+![Pushed GPO to the machine ](https://github.com/user-attachments/assets/54cc07d0-20f2-43ce-a690-4b9199088b0c)
+
 ##  Role-Based Access Control (RBAC)
 
 ##  Monitoring and Auditing Logs
