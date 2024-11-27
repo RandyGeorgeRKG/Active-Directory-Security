@@ -104,7 +104,24 @@ Implementing these group policies is crucial for hardening the Active Directory 
 ![Account Lockouts ](https://github.com/user-attachments/assets/c29258a3-296d-47dd-ae1d-2b9509a5f4e8)
 ![Pushed GPO to the machine ](https://github.com/user-attachments/assets/54cc07d0-20f2-43ce-a690-4b9199088b0c)
 
-##  Role-Based Access Control (RBAC)
+##  Identity Acess Management(IAM) RBAC 
+In this section, I focused on practicing Identity and Access Management (IAM) for my Domain Controller in Active Directory. To do this, I created an automation script to add over 1,000 users via the command prompt. While manually adding users one by one is possible, automating the process provides a more efficient solution, especially when handling large volumes of users.
+![Screenshot 2024-11-26 102222](https://github.com/user-attachments/assets/19bbcea1-4005-4f65-b793-8f964c1d253d)
+
+After creating the users, I proceeded to create groups to assign specific rights and privileges, thereby enforcing Role-Based Access Control (RBAC). I included my own user account in the script and created a group called "Admins Group for RBAC Project." Several other users were also added to this group to facilitate the IAM practice. I then used the Delegation Control Wizard to assign tasks such as creating, deleting, and managing user accounts and groups.
+
+This delegation ensures that users within this group have the necessary permissions to perform these tasks, while users outside the group are restricted from doing so. This approach aligns with the principle of least privilege, which dictates that users should only be granted the permissions required to complete their specific duties. Granting excessive permissions could pose significant security risks and increase the vulnerability of the organization to cyber threats.
+
+![RBAC Controls ](https://github.com/user-attachments/assets/a4c4e84c-0201-45cc-bb69-877c047ba393)
+![Screenshot 2024-11-26 215645](https://github.com/user-attachments/assets/fb5d2b1b-018c-4793-89f2-357155092ca3)
+
+Once the rights were delegated to the group, I accessed the Computer Management tool on my machine and navigated to the Remote Desktop Users group. I added the "Admins Group for RBAC Project" to this group, which ensures that the roles and privileges are inherited through Active Directory. To verify the setup, I tested my ability to remotely log into the system, which was successful.
+
+This project provided valuable hands-on experience with IAM and RBAC, deepening my understanding of how roles, permissions, and security principles are effectively managed within Active Directory.
+
+
+![Screenshot 2024-11-26 220135](https://github.com/user-attachments/assets/dcc579b6-6bac-45ca-8af9-908a4e955102)
+
 
 ##  Monitoring and Auditing Logs
 
