@@ -62,6 +62,10 @@ Applying the latest security patches and updates
 
 ##  Domain Controller Setup
 
+![Domain Controller  blacked out intenret ](https://github.com/user-attachments/assets/d6f2be8e-9728-47b2-bd22-22fd44d870d4)
+
+
+
 ## Group Policy Implementation
 
 ##  Role-Based Access Control (RBAC)
