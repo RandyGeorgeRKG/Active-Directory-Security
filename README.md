@@ -78,8 +78,25 @@ I also implemented Role-Based Access Control (RBAC) to enforce the principle of 
 
 Active Directory is a powerful tool in today’s evolving threat landscape. Its ability to centralize authentication, enforce security policies, and manage access control makes it an essential component for safeguarding enterprise networks against internal and external threats
 
-## Group Policy Implementation
+## Group Policy Implementation(Account Lockout and Password Complexity) 
+In this section of my project, I implemented Group Policy for my domain on the Windows 10 machine within my network. I accomplished this using the Group Policy Management Editor. First, I configured the Account Lockout Policy with the following settings:
 
+Lockout Duration: 30 minutes
+Account Lockout Threshold: 4 invalid logon attempts
+Reset Account Lockout Counter After: 30 minutes
+This lockout policy is designed to reduce the risk of a successful brute-force attack by limiting the number of login attempts.
+
+Next, I adjusted the Password Policy to enforce stronger password practices:
+
+Enforce Password History: 24 passwords
+Maximum Password Age: 100 days
+Minimum Password Age: 30 days
+Minimum Password Length: 14 characters
+These settings are intended to ensure the use of complex passwords, making it more difficult for attackers to crack weak passwords.
+
+Following these changes, I used the Remote Group Policy Update rule to push the updated policies to my Windows 10 VM. On the Windows 10 machine, I ran the gpupdate /force command to apply the new group policies immediately. To verify the effectiveness of the password policy, I tested it by entering a weak password, and the policy successfully prevented its use.
+
+Implementing these group policies is crucial for hardening the Active Directory environment and reducing the attack surface within an organization.
 
 
 ![More account lockouts ](https://github.com/user-attachments/assets/b8a6a520-ecc2-42e4-b75b-644aac4f787e)![More Password GPO ](https://github.com/user-attachments/assets/b2bcc5a6-48d8-4d9a-9f60-2496432ee276)
