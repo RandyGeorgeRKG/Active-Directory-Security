@@ -152,3 +152,26 @@ Monitoring and auditing logs within an Active Directory environment is essential
 
 
 ##  Security Hardening
+In this section of the project I praticed security hardening on the domain Controller, I randomly generated random users to add to specific privilleged groups, and I started praticing the principal of least privillege 
+
+
+![Screenshot 2024-11-27 120202](https://github.com/user-attachments/assets/4c4bb26d-371d-4d30-86ca-3985df000f4c)
+![Screenshot 2024-11-27 115952](https://github.com/user-attachments/assets/945e2dc7-59d8-424f-ae5c-d922a4e125ab)
+![Screenshot 2024-11-27 115747](https://github.com/user-attachments/assets/e8b6af6d-f957-4ae3-be1d-415a864f7d14)
+![Screenshot 2024-11-27 115412](https://github.com/user-attachments/assets/862b48d0-96a2-4529-9991-fb019122863f)
+![Screenshot 2024-11-27 115349](https://github.com/user-attachments/assets/482d1e8b-59ea-4d06-9e60-950515ffb3b7)
+![Screenshot 2024-11-27 115329](https://github.com/user-attachments/assets/d84721ad-87fe-4861-a20e-6606685eea69)
+![Screenshot 2024-11-27 115229](https://github.com/user-attachments/assets/f645f544-321c-4a54-8c35-280cf9c889a3)
+
+
+
+
+
+
+
+
+
+
+
+
+
