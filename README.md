@@ -152,10 +152,13 @@ Monitoring and auditing logs within an Active Directory environment is essential
 
 
 ##  Security Hardening
-In this section of the project I praticed security hardening on the domain Controller, I randomly generated random users to add to specific privilleged groups, and I started praticing the principal of least privillege 
+In this section of the project, I focused on security hardening for the Domain Controller. I began by generating random users and assigning them to specific privileged groups, applying the principle of least privilege. Through Group Policy, I modified permissions to restrict remote desktop access, deny local logins, and block logon as a service, logon as a batch job, and network access from specific computers.
+
+I then reviewed the membership of high-privilege groups, specifically the Enterprise Admins and Domain Admins groups. I found several users who did not require such elevated privileges, so I removed them from these groups. This ensured that only trusted administrators retained these high-level permissions within Active Directory.
+
+Security hardening is a critical process to minimize the attack surface and enhance the protection of the Domain Controller, helping to safeguard the entire network.
 
 
-![Screenshot 2024-11-27 120202](https://github.com/user-attachments/assets/4c4bb26d-371d-4d30-86ca-3985df000f4c)
 ![Screenshot 2024-11-27 115952](https://github.com/user-attachments/assets/945e2dc7-59d8-424f-ae5c-d922a4e125ab)
 ![Screenshot 2024-11-27 115747](https://github.com/user-attachments/assets/e8b6af6d-f957-4ae3-be1d-415a864f7d14)
 ![Screenshot 2024-11-27 115412](https://github.com/user-attachments/assets/862b48d0-96a2-4529-9991-fb019122863f)
